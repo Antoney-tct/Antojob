@@ -12,7 +12,7 @@ export function Chatbot() {
 
   const { messages, append, status } = useChat({
     api: "/api/chat",
-  }) as any
+  } as any) as any
 
   const isLoading = status === "streaming" || status === "submitted"
 
