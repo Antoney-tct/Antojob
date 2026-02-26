@@ -125,7 +125,7 @@ export function Chatbot() {
                 </div>
                 <div
                   className={cn(
-                    "max-w-[80%] px-3.5 py-2.5 rounded-xl text-sm leading-relaxed",
+                    "max-w-[80%] px-3.5 py-2.5 rounded-xl text-sm leading-relaxed",65
                     message.role === "user"
                       ? "bg-accent text-accent-foreground rounded-br-sm"
                       : "bg-secondary text-foreground rounded-bl-sm"
